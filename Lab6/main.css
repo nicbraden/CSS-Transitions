@@ -1,0 +1,147 @@
+header, nav, main, section, footer {
+	display: block;
+}
+
+body {
+	background: #5A785D;
+	font: 100%/1.5 "Trebuchet MS", arial, sans-se;
+	margin: 0;
+}
+
+#wrap {
+	background: #fff;
+	width: 80%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+aside img {
+		width: 0px;
+		height: 0px;
+		overflow: hidden;
+}
+
+.top{
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 15px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 95px;
+}
+
+li {
+	display: inline;
+	padding: 25px;
+	margin: 20px;
+
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 120%;
+	width: 160px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+
+.home {
+	background-color: #62503C;
+	border-bottom-right-radius: 16px;
+	border-top-left-radius: 16px;
+
+	transition: 1s;
+}
+
+.home:hover {
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+.men {
+	background-color: #876847;
+	border-bottom-right-radius: 16px;
+	border-top-left-radius: 16px;
+
+	 transition: 1s;
+}
+
+.men:hover {
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+.women {
+	background-color: #E48721;
+	border-bottom-right-radius: 16px;
+	border-top-left-radius: 16px;
+
+	transition: 1s;
+}
+
+.women:hover {
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+.gear {
+	background-color: #AC7334;
+	border-bottom-right-radius: 16px;
+	border-top-left-radius: 16px;
+
+	transition: 1s;
+}
+
+.gear:hover {
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 16px;
+	border-top-right-radius: 16px;
+}
+
+section h1 {
+	margin-top: 50px;
+	margin-left: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: #62503C;
+	font-size: 2.5em;
+}
+
+.pic1 {	
+	transform: rotate(-4deg);
+	padding: 4px;
+	box-shadow: 2px 2px 2px 2px;
+	margin-bottom: 10px;
+	margin-left: -95px;
+}
+
+.pic2 {
+	transform: rotate(4deg);
+	padding: 4px;
+	box-shadow: 2px 2px 2px 2px;
+	margin-bottom: 10px;
+	margin-left: -35px;
+}
+
+.pic3 {	
+	transform: rotate(-4deg);
+	padding: 4px;
+	box-shadow: 2px 2px 2px 2px;
+	margin-bottom: 10px;
+	margin-left: -25px;
+}
+
+
+p {
+	margin: 15px;
+}
